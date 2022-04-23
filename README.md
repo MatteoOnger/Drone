@@ -14,9 +14,14 @@ Aggiunti:
 * 2 x Dual H Bridge L298H [[doc]](https://github.com/MatteoOnger/Drone/blob/main/Documents/Specifiche.md) (ogni ponte H controlla due motori)
 * Sensore ultrasuoni HC-SR04 [[doc]](https://www.makerslab.it/sensore-di-distanza-ad-ultrasuoni-hc-sr04-con-arduino/)
 * Connettori Micro JST 1.25 mm
-* Jumper (usati per conettere i vari componenti)
+* Jumper
 * Batterie LiPo 3.7V
 
 ### Librerie usate:
 * ESP8266WiFi.h
 * PubSubClient.h
+
+### Struttura messaggi MQTT:
+
+### Note:
+1. Per via dello spazio limitato è necessario tagliare su misura e saldare i jumper usati per connettere i vari componenti  
