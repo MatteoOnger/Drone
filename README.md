@@ -11,7 +11,7 @@ Già presenti:
 
 Aggiunti:
 * Wemos D1 Mini [[doc]](https://www.wemos.cc/en/latest/d1/d1_mini.html)
-* 2 x Dual H Bridge L298H (ogni ponte H controlla due motori)
+* 2 x Dual H Bridge L298H [[doc]](https://github.com/MatteoOnger/Drone/blob/main/Documents/Specifiche.md) (ogni ponte H controlla due motori)
 * Sensore ultrasuoni HC-SR04 [[doc]](https://www.makerslab.it/sensore-di-distanza-ad-ultrasuoni-hc-sr04-con-arduino/)
 * Connettori Micro JST 1.25 mm
 * Jumper (usati per conettere i vari componenti)
