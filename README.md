@@ -18,10 +18,14 @@ Aggiunti:
 * Batterie LiPo 3.7V
 
 ### Librerie usate:
-* ESP8266WiFi.h
-* PubSubClient.h
+* ESP8266WiFi.h [[doc]](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html)
+* PubSubClient.h [[doc]](https://pubsubclient.knolleary.net/api)
 
 ### Struttura messaggi MQTT:
+E' possibile inviare al drone tre diversi dipi di messaggio:
+1. 'S' : comanda al drone di atterrare.
+2. 'I' : chiede al drone di fornire informazioni circa il suo stato attuale.
+3. 't:trg:esp' : imposta una quota obiettivo *trg* (intero espresso in cm) con un margine di errore *eps* (intero espresso in cm).
 
 ### Note:
 1. Per via dello spazio limitato è necessario tagliare su misura e saldare i jumper usati per connettere i vari componenti  
