@@ -27,5 +27,8 @@ E' possibile inviare al drone tre diversi dipi di messaggio:
 2. 'I' : chiede al drone di fornire informazioni circa il suo stato attuale.
 3. 't:trg:esp' : imposta una quota obiettivo *trg* (intero espresso in cm) con un margine di errore *eps* (intero espresso in cm).
 
+### Schema:
+![alt](https://github.com/MatteoOnger/Drone/blob/main/Documents/Drone_schema.png)
+
 ### Note:
 1. Per via dello spazio limitato è necessario tagliare su misura e saldare i jumper usati per connettere i vari componenti  
