@@ -2,7 +2,7 @@
 
 Autore: Matteo Onger 
 
-Descrizione: Il progetto punta a recuperare il telaio e i motori di un drone già esistente ma danneggiato, sostituendone la circuiteria di controllo e programmandola     affinché, tramite messaggi MQTT, sia possibili controllare remotamente il quadrirotore. In particolare, sfruttando un sensore ad ultrasuoni posto sotto la                scocca del drone, sarà possibile impostare una quota obiettivo che il veivolo, controllato dal microcontrollore, punterà a raggiungere. Sempre attraverso                messaggi MQTT sarà possibile ricevere informazioni sullo stato del drone o forzare un atterraggio graduale mediato del MCU.
+Descrizione: Il progetto punta a recuperare il telaio e i motori di un drone già esistente ma danneggiato, sostituendone la circuiteria di controllo e programmandola affinché, tramite messaggi MQTT, sia possibili controllare remotamente il quadrirotore. In particolare, una volta acceso, sfruttando un sensore ad ultrasuoni posto sotto la scocca del drone, sarà possibile impostare una quota obiettivo che il veivolo, controllato dal microcontrollore, punterà a raggiungere. Sempre attraverso messaggi MQTT sarà possibile ricevere informazioni sullo stato del drone o forzare un atterraggio graduale mediato del MCU.
 
 ### Hardware:
 Già presenti:
@@ -32,4 +32,5 @@ E' possibile inviare al drone tre diversi dipi di messaggio:
 
 ### Note:
 1. I quattro motori arrivano a richidere fino a 2 Ampere per generare una spinta sufficiente al decollo, è dunque necessario verificare che non vi siano limitazioni sulla corrente massima di scaria della batteria utilizzata per alimentari.
-2. Per migliorare il controllo del veivolo sarebbe consigliabile aggiungere altri sensori (come accelerometri, giroscopi, ...), ma nel caso specifico si va incontro a problemi di spazio e peso, oltre ad un ridotto numero di pin disponibili.
+2. E' necessario personalizzare il codice sorgente inserendo i dati della rete WiFi e del MQTT broker a cui si intende collegarsi.
+3. Per migliorare il controllo del veivolo sarebbe consigliabile aggiungere altri sensori (come accelerometri, giroscopi, ...), ma nel caso specifico si va incontro a problemi di spazio e peso, oltre al limite dato dal ridotto numero di pin disponibili.
