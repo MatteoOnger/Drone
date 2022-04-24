@@ -31,4 +31,5 @@ E' possibile inviare al drone tre diversi dipi di messaggio:
 ![alt](https://github.com/MatteoOnger/Drone/blob/main/Documents/Drone_schema.png)
 
 ### Note:
-1. Per via dello spazio limitato è necessario tagliare su misura e saldare i jumper usati per connettere i vari componenti  
+1. I quattro motori arrivano a richidere fino a 2 Ampere per generare una spinta sufficiente al decollo, è dunque necessario verificare che non vi siano limitazioni sulla corrente massima di scaria della batteria utilizzata per alimentari.
+2. Per migliorare il controllo del veivolo sarebbe consigliabile aggiungere altri sensori (come accelerometri, giroscopi, ...), ma nel caso specifico si va incontro a problemi di spazio e peso, oltre ad un ridotto numero di pin disponibili.
