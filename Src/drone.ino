@@ -147,7 +147,7 @@ void callback(char *topic, byte *payload, unsigned int len) {
     status = FLYING;
     target = t;
     eps = e;
-    printInfo("CALLBACK:: new target setted");
+    printInfo("CALLBACK:: new target set");
   }else if(strcmp(token, "S") == 0){
     status = LANDING;
     target = 0;
