@@ -196,7 +196,7 @@ int estimateDist(){
   int dist; 
   do{
     enableTrigger();
-    unsigned long deltaTime = pulseIn(ECHO_PIN, HIGH);
+    unsigned long deltaTime = pulseIn(ECHO_PIN, HIGH, TIMEOUT);
   
     if(deltaTime > TIMEOUT) dist = 0;
     else dist = (deltaTime / 2) * SOUND_SPEED;
